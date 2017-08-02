@@ -1,0 +1,220 @@
+.gof-news{
+	float:left;
+	background:#F3F3F3;
+	border:1px solid #DDDDDD;
+	color:white;
+	font-family:Helvetica,Arial,sans-serif;
+	position:relative;
+}
+#go-feat-title{
+	font-size:24px;
+	text-indent:10px;
+	color:#333;
+	border-bottom:1px solid #DDD;
+	font-weight:normal;
+	margin:5px 0;
+	display:block;
+	float:left;
+	width:100%;
+}
+.go-feat-box{
+	position:relative;
+	display:block;
+	float:left;
+	overflow:hidden;
+}
+.go-feat-element{
+	display:block;
+	float:left;
+	border-bottom:1px solid #DDDDDD;
+	font-size:12px;
+	margin:0;
+	padding:3px;
+	color:black;
+	cursor:pointer;
+}
+.go-feat-element img{
+	float:left;
+	margin-right:3px
+}
+.go-feat-element-content{
+	float:left
+}
+.go-feat-element .link-title{
+	color:#333;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	margin-bottom:3px;
+	padding:0 5px 0 0;
+}
+.go-feat-element p{
+	padding:5px 5px 0 0;
+	margin:0;
+}
+.go-feat-element:hover{
+	background:#398897 !important;
+	color:white;
+}
+.go-feat-element.active {
+	background:#398897;
+	color:white;
+}
+
+.go-feat-box .go-feat-item{
+	position:absolute;
+	top:0;
+	background:white;
+	display:none;
+}
+.go-feat-box > div img{
+	display:block;
+	float:left;
+	max-width:inherit;
+}
+.go-feat-content{
+	position:absolute;
+	background:url(images/transparent-bg.png) repeat;
+	z-index:1;
+	padding:0 5px;
+}
+.go-feat-content .go-feat-item-title{
+	margin:0;
+	width:100%;
+	display:block;
+	float:left;
+}
+.go-feat-content h3 a {
+	display:block;
+	float:left;
+	color:white;
+	padding:5px 0;
+	font-weight:bold;
+	color:white;
+	border:0;
+	font-size:16px;
+}
+.go-feat-content a:hover{
+	color:white;
+	text-decoration:none;
+}
+.go-feat-readmore{
+	background:transparent;
+	color:#333 !important;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.go-feat-readmore:hover{
+	color:#555 !important;
+}
+.go-feat-content p{
+	padding-bottom:10px;
+	margin:0;
+	display:block;
+	float:left;
+	width:100%;
+}
+/*BUBBLES*/
+.bubbles_outer{
+	z-index:1;
+	padding:7px;
+	position:absolute;
+	text-align:center;
+}
+.bubbles_inner{
+	display:inline-block;
+}
+.bubbles{
+	display:block;
+	padding:0;
+	z-index:20000;
+	margin:0;
+	float:left;
+}
+.bubbles li{
+	display:block;
+	float:left;
+	width:16px;
+	height:14px;
+	position:relative;
+	cursor:pointer;
+	text-align:center;
+	padding:3px 1px;
+	line-height:14px;
+	color:#aaa;
+	font-weight:bold;
+}
+.bubbles li:hover{ color:black; }
+.bubbles .tn-box{
+	display:none;
+	position:absolute;
+	color:black;
+	z-index:500;
+}
+.bubbles .tn-details{
+	display:block;
+	float:left;
+	border:1px solid #aaa;
+	padding:5px;
+	background:white;
+}
+.bubbles .tn-details p{ margin:0; padding:0;}
+.bubbles li:hover .tn-box{ display:block; }
+.tn-top, .tn-bottom{
+	position:relative;
+	display:block;
+	float:left;
+	height:16px;
+}
+.bnav{
+	display:block;
+	float:left;
+	width:16px;
+	height:16px;
+	padding:2px 0;
+	cursor:pointer;
+}
+#b_prev{ background:url(../images/prev.png) no-repeat center; }
+#b_next{ background:url(../images/next.png) no-repeat center; }
+.jspHorizontalBar{
+	visibility:hidden;
+	z-index:-10000;
+}
+.jspDrag{
+	background:#196877 !important;
+}
+.jspTrack{
+	border:none !important;
+}
+
+/*----ADMIN STYLING----*/
+.admin-table h4{
+	margin:0;
+}
+.admin-table h3{
+	margin-bottom:5px;
+}
+.admin-separator{
+	padding-top:10px;
+	border-bottom:1px solid lightgray;
+	padding-left:0;
+}
+#go_feat_media td{ vertical-align:top; padding:5px;}
+#go_feat_media select{
+	height: 34px;
+	width:175px;
+    padding: 5px;
+	font-size:16px;
+	line-height:1;
+	color:#555;
+	cursor:pointer;
+}
+#go_feat_media option{
+	height:15px;
+	line-height:1;
+	padding:5px;
+}
+#go_feat_mediapath{ margin-top:5px; }
+
+/* WIDGET */
